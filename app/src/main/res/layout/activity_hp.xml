@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnf61"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:src="@drawable/f61"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/btnf71"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:src="@drawable/f71"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btns221"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:src="@drawable/s221"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/btns241"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:src="@drawable/s241"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btns"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:src="@drawable/s231"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"/>
+
+        <!-- Add more rows as needed -->
+
+    </LinearLayout>
+</LinearLayout>
